@@ -1,0 +1,30 @@
+<html ng-app="myModule">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-resource.min.js"></script>
+
+
+<script src="scripts/directory.js"></script>
+
+<head>
+    <h1 align="center">Telephone directory registration</h1>
+</head>
+<title>Telephone directory</title>
+
+<body ng-controller="homeController">
+
+    <div align="center">
+        <button ng-click="getUser()">See an entry</button><br><br>
+        <button ng-click="addUser()">Add an entry</button><br><br>
+        <button ng-click="delUser()">Delete an entry</button><br><br>
+        <button ng-click="updateUser()">Update an entry</button>
+
+        <ng-view></ng-view>
+    </div>
+
+
+    
+</body>
+
+</html>

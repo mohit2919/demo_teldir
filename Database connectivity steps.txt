@@ -1,0 +1,8 @@
+1. Download couchdb (version 2.3.1) via link: https://couchdb.apache.org/#download
+2. install the setup (keep the default installation directory viz. C://couchdb)
+3. Go to http://localhost:5984/_utils/#/_all_dbs
+4. under changePassword tab (on left menu bar), choose username & paswword = admin (both)
+5. click on create database on top right corner
+6. give database name as dir_db
+
+That's it!
